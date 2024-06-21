@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #e2ce1a;
+    }
+
+header .container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 20px;
+margin-top: 50px;    
+width: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+}
+
+header .container .container-esquerdo{
+   padding: 10px;
+   background-color:#36320a ;
+   width: 100%;
+   border-radius: 15px 0px 0px 15px;
+   box-shadow: 0px 0px 10px 0px   rgba(0, 0, 0, 0.5);
+
+
+}
+
+header  .container-esquerdoimg{
+    width: 100%;
+
+}
+
+
+.content-img{
+    margin-top: 30%;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.container-texto{
+    width: 90%;
+    padding: 10px;
+    color: white;
+}
+
+.container-button{
+text-align: center;
+margin-bottom: 50%;
+}
+.container-button a{
+    text-decoration: none;
+    color: #fff;}
+
+.container-button button{
+    padding: 6px 25px;
+    background-color: #36320a;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid #FFFFFF;
+
+
+
+}
+    
+
+
+header .container .container-direito{
+    padding: 10px;
+    background-color: #fefaa1;  
+    text-align: center;  
+    width: 100%;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0px 0px 10px 0px   rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+
+header .container .container-direito h1{
+    margin-top: 10% ;
+}
+
+.container-direitoinput{
+    width: 100%;
+}
+.input-container{
+    position: relative;
+
+}
+
+.input-container input{
+position: relative;
+width: 40%;
+padding: 10px;
+background: #E2CE1A;
+border-radius: 8px;
+border: none;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.input-container input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    }
+
+
+
+.input-container label{
+    position: absolute;
+    top:20%;
+    left: 65%;
+    z-index: 999;
+    font-size: 18pt;
+}
+
+
+.container-direito button{
+cursor: pointer;
+margin-top: 1rem;
+padding: 8px 30px;
+border-radius: 20px;
+border: none;
+background-color: #36320a;
+color: #fff;
+font-size: 12px;
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    body{
+    margin: 0;
+    padding: 0;}
+    header .container{
+        grid-template-columns: none;
+        margin-top: 0;
+       
+    }
+
+    header .container .container-esquerdo{
+      
+        border-radius: 15px 15px 0px 0px;     
+     
+     }
+     
+header .container .container-direito{
+   
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+    .input-container input{
+        width: 80%;
+         
+        }
+
+        .input-container label{
+            
+            left: 78%;
+            
+        }
+
+        .container-button{
+            margin-bottom: 20%;
+            }
+
+}
